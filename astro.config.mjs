@@ -7,39 +7,32 @@ export default defineConfig({
     starlight({
       title: "NOICETHEMES",
       logo: {
-        src: "./src/assets/noice-logo.svg",
-      },
-      logo: {
         light: "./src/assets/noice-logo.svg",
         dark: "./src/assets/noice-logo-dark.svg",
       },
-      customCss: [
-        // Relative path to your custom CSS file
-        "./src/styles/custom.css",
-      ],
-      // Set English as the default language for this site.
+      customCss: ["./src/styles/custom.css"],
       defaultLocale: "root",
       locales: {
         root: {
           label: "English",
-          lang: "en", // lang is required for root locales
+          lang: "en",
         },
-        // Spanish docs in `src/content/docs/es/`
         es: {
           label: "Español",
           lang: "es",
         },
       },
-      social: {
-        github: "https://github.com/withastro/starlight",
-      },
+      social: [
+        {
+          icon: "github",
+          href: "https://github.com/noicethemes",
+          label: "GitHub",
+        },
+      ],
       sidebar: [
         {
           label: "Guides",
-          items: [
-            // Each item here is one entry in the navigation menu.
-            { label: "Example Guide", link: "/guides/example/" },
-          ],
+          items: [{ label: "Quick Start", link: "/guides/quick-start/" }],
         },
         {
           label: "Reference",
