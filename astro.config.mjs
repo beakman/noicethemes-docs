@@ -31,12 +31,31 @@ export default defineConfig({
       ],
       sidebar: [
         {
-          label: "Guides",
-          items: [{ label: "Quick Start", link: "/guides/quick-start/" }],
+          label: "Getting Started",
+          items: [
+            { label: "Quick Start",       link: "/guides/quick-start/"       },
+            { label: "Project Structure", link: "/guides/project-structure/" },
+            { label: "Configuration",     link: "/guides/configuration/"     },
+          ],
         },
         {
-          label: "Reference",
-          autogenerate: { directory: "reference" },
+          label: "Guides",
+          items: [
+            { label: "Customization",          link: "/guides/customization/"  },
+            { label: "Internationalization",    link: "/guides/i18n/"           },
+            { label: "Blog & Content",          link: "/guides/content/"        },
+            { label: "Landing Page Variants",   link: "/guides/landing-pages/"  },
+            { label: "Deployment",              link: "/guides/deployment/"     },
+          ],
+        },
+        {
+          label: "Integrations",
+          items: [
+            { label: "Strapi v5",          link: "/integrations/strapi/"    },
+            { label: "Directus 11",        link: "/integrations/directus/"  },
+            { label: "Payload CMS v3",     link: "/integrations/payload/"   },
+            { label: "Plausible Analytics",link: "/integrations/plausible/" },
+          ],
         },
       ],
     }),

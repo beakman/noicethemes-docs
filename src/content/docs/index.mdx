@@ -1,34 +1,38 @@
 ---
-title: User Guide and Documentation
-description: Get started customizing your new site.
+title: Astro Starter by Noicethemes
+description: The Astro v6 + Tailwind v4 starter for serious projects.
 template: splash
 hero:
-  tagline: Learn how to customize and build your new site.
+  tagline: The Astro v6 + Tailwind v4 starter for serious projects
   actions:
     - text: Get Started
-      link: /guides/example/
+      link: /guides/quick-start/
       icon: right-arrow
       variant: primary
-    - text: Read the Astro docs
-      link: https://docs.astro.build
+    - text: View Template
+      link: https://starter.noicethemes.com
       icon: external
 ---
 
 import { Card, CardGrid } from "@astrojs/starlight/components";
 
-## Next steps
-
 <CardGrid stagger>
-  <Card title="Update content" icon="pencil">
-    Edit `src/content/docs/index.mdx` to see this page change.
+  <Card title="Quick Start" icon="rocket">
+    Clone the repo, install dependencies, and be running locally in under 5 minutes. [Get started →](/guides/quick-start/)
   </Card>
-  <Card title="Add new content" icon="add-document">
-    Add Markdown or MDX files to `src/content/docs` to create new pages.
+  <Card title="Configuration" icon="setting">
+    Customise your site title, navigation menus, footer links, and social profiles from a single file. [Configure →](/guides/configuration/)
   </Card>
-  <Card title="Configure your site" icon="setting">
-    Edit your `sidebar` and other config in `astro.config.mjs`.
+  <Card title="Customization" icon="pencil">
+    Swap colors, fonts, sections, and landing page variants without touching a component. [Customize →](/guides/customization/)
   </Card>
-  <Card title="Read the docs" icon="open-book">
-    Learn more in [the Starlight Docs](https://starlight.astro.build/).
+  <Card title="Internationalization" icon="translate">
+    Ship in English and Spanish out of the box. Adding a third language takes less than an hour. [i18n guide →](/guides/i18n/)
+  </Card>
+  <Card title="Deployment" icon="laptop">
+    One-command deploys to Vercel, Netlify, and Cloudflare Pages. Static output — no server required. [Deploy →](/guides/deployment/)
+  </Card>
+  <Card title="Integrations" icon="puzzle">
+    Connect Strapi v5, Directus 11, or Payload CMS v3 as a headless CMS backend. [Integrations →](/integrations/strapi/)
   </Card>
 </CardGrid>
