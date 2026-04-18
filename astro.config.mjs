@@ -46,6 +46,7 @@ export default defineConfig({
             { label: "Blog & Content",          link: "/guides/content/"        },
             { label: "Landing Page Variants",   link: "/guides/landing-pages/"  },
             { label: "Contact Form",            link: "/guides/contact-form/"   },
+            { label: "SSR Adapters",            link: "/guides/ssr-adapters/"   },
             { label: "Deployment",              link: "/guides/deployment/"     },
           ],
         },
