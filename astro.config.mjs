@@ -45,6 +45,7 @@ export default defineConfig({
             { label: "Internationalization",    link: "/guides/i18n/"           },
             { label: "Blog & Content",          link: "/guides/content/"        },
             { label: "Landing Page Variants",   link: "/guides/landing-pages/"  },
+            { label: "Theme Configuration",     link: "/guides/theme-config/"   },
             { label: "Contact Form",            link: "/guides/contact-form/"   },
             { label: "SSR Adapters",            link: "/guides/ssr-adapters/"   },
             { label: "Deployment",              link: "/guides/deployment/"     },
