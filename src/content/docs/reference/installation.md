@@ -1,3 +1,8 @@
+---
+title: Installation
+description: Step-by-step instructions for setting up a Noice template locally.
+---
+
 # Getting Started with a Noice Template
 
 Welcome to your brand new NoiceTheme 👌! This guide will walk you through the steps to get your project up and running quickly. Astro 5+ is a modern, lightweight, and highly customizable template designed for building fast, static websites with ease.
